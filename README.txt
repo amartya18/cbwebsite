@@ -17,3 +17,5 @@ npm install bootstrap jquery popper.js --save
 then ur good to go; the dev server will auto reload every html or sass changes and yes u can use SASS :D
 
 Happy Stylesheeting!
+
+i hacked you! email me at marcantoniosmap@gmail.com
