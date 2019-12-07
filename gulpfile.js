@@ -15,10 +15,11 @@ gulp.task('js', function() {
 gulp.task('serve', function() {
 
     browserSync.init({
-        server: "./src",
+        server: ".",
         port: 6969
     });
 
+    gulp.watch("*.html").on('change', browserSync.reload);
     gulp.watch("src/*.html").on('change', browserSync.reload);
     gulp.watch("src/css/*.css").on('change', browserSync.reload);
 });

@@ -7,6 +7,7 @@ node -v
 this will return ur current version of node
 
 run this command:
+sudo npm install gulp --global
 npm install 
 
 * gulp browser-sync gulp-sass are for development only
