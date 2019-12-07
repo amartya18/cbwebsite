@@ -6,7 +6,7 @@ to check run:
 node -v
 this will return ur current version of node
 
-run these two commands:
+run this command:
 npm install 
 
 * gulp browser-sync gulp-sass are for development only
