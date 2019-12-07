@@ -7,7 +7,6 @@ node -v
 this will return ur current version of node
 
 run these two commands:
-npm install gulp browser-sync gulp-sass --save-dev
 npm install 
 
 * gulp browser-sync gulp-sass are for development only
