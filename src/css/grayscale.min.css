@@ -48,10 +48,10 @@
         background-color:#fff
     }
     #mainNav.navbar-shrink .navbar-brand{
-        color:#161616
+        color:#212529
     }
     #mainNav.navbar-shrink .nav-link{
-        color:#161616;
+        color:#212529;
         padding:1.5rem 1.5rem 1.25rem;
         border-bottom:.25rem solid transparent
     }
@@ -82,7 +82,7 @@
     background-attachment:scroll;
     background-size:cover
 }
-/* .masthead h1{
+.masthead h1{
     font-family:'Varela Round';
     font-size:2.5rem;
     line-height:2.5rem;
@@ -90,8 +90,8 @@
     background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text
-} */
-.masthead h1{
+}
+/* .masthead h1{
     font-family: 'Caveat', 'cursive';    
     font-size:2.5rem;
     line-height:2.5rem;
@@ -99,7 +99,7 @@
     background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255, 255, 255, 0.247));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text
-}
+} */
     
 .masthead h2{
     max-width:20rem;
@@ -155,7 +155,10 @@
     margin-bottom:5rem
     }
 .projects-section{
-    padding:10rem 0
+    padding-top:7rem;
+    padding-bottom: 10rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 .projects-section .featured-text{
     padding:2rem
@@ -204,7 +207,7 @@
 }
 .contact-section .card{
     border:0;
-    border-bottom:.25rem solid #64a19d
+    border-bottom:.25rem solid #356DD4
 }
 .contact-section .card h4{
     font-size:.8rem;
@@ -213,7 +216,7 @@
     letter-spacing:.15rem
 }
 .contact-section .card hr{
-    border-color:#64a19d;
+    border-color:#356DD4;
     border-width:.25rem;
     width:3rem}
     .contact-section .social{
@@ -239,7 +242,8 @@
         letter-spacing:.0625em
     }
     a{
-        color:#64a19d
+        color: rgba(0, 0, 0, 0.5);
+        /* color:#64a19d */
     }
     a:focus,a:hover{
         text-decoration:none;color:#3c6360
@@ -248,11 +252,12 @@
         background-color:#161616!important
     }
     .bg-primary{
-        background-color:#64a19d!important
+        background-color:#356DD4!important
     }
     .text-primary{
-        color:#64a19d!important
+        color:#356DD4!important
     }
     footer{
-         padding:5rem 0
+         padding-top:3rem;
+         padding-bottom: 1rem;
     }
