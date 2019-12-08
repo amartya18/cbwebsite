@@ -20,10 +20,14 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="src/assets/img/logoPNG.png" alt="LOGO" height="30"  >
+          <img src="src/assets/img/logoPNG.png" id= alt="LOGO" height="30"  >
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
@@ -57,7 +61,7 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <!-- <section id="about" class="about-section text-center">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -68,7 +72,9 @@
           </div>
           <img src="src/assets/img/aboutUsPng.png" class="img-fluid" alt="">
         </div>
-      </section>
+      </section> -->
+     
+
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
@@ -91,10 +97,40 @@
         </div>
       </div>
 
+      <!--OBJECTIVES-->
+      <div class="container-fluid mt-5 mb-3"><h3 style="text-align: center;">Objectives</h3></div>
+      <div class="container mb-5">
+      <div class="card-deck row">
+        
+        <div class="card">
+          <img src="src/assets/img/picture10.jpg" class="card-img-top" style=" max-width: 100%; height: auto;"alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Educate</h5>
+            <p class="card-text text-black-50">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="src/assets/img/picture10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Creating family</h5>
+            <p class="card-text text-black-50">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="src/assets/img/picture10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Socialize</h5>
+            <p class="card-text text-black-50">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
+        <div class="col-lg-6 img-effect">
           <img class="img-fluid" src="src/assets/img/merch(6).jpg" alt="">
+          <div class="overlay"></div>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -111,8 +147,9 @@
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
+        <div class="col-lg-6 img-effect">
           <img class="img-fluid" src="src/assets/img/merch(4).jpg" alt="">
+          <div class="overlay"></div>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -206,6 +243,10 @@
 
     </div>
   </section>
+
+
+  <!-- INSTAGRAM-->
+  <div id="instafeed"></div>
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
