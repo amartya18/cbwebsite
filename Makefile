@@ -3,4 +3,3 @@ deploy:
 	git merge master
 	git commit -a --allow-empty-message -m ''
 	git push
-	git checkout master
