@@ -1,5 +1,5 @@
 deploy:
-	git add .
-	git commit -a --allow-empty-message -m ''
-	git push 
+	git checkout master
+	git merge --ours gh-pages
 	git checkout gh-pages
+	git merge master
