@@ -10,16 +10,17 @@
         <link rel="stylesheet" href="src/css/bootstrap.css">
         <link rel="stylesheet" href="src/css/styles.css">
         <link rel="stylesheet" href="src/css/grayscale.min.css" >
-        <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="src/css/all.min.css">
         <link rel="stylesheet" href="src/css/animate.css">
+        <link rel="icon" href="src/assets/img/logo.ico" type="image/icon type">
         
     </head>
-<body>
+<body id='page-top'>
       <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container" >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img src="src/assets/img/logoPNG.png" alt="LOGO" height="30"  >
       </a>
@@ -32,17 +33,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link js-scroll-trigger" href="#">Home</a>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href='#page-top'>Home</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">About Us</a>
+            <a class="nav-link js-scroll-trigger" href="#About">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Help Us</a>
+            <a class="nav-link js-scroll-trigger" href="#Help">Get Involved</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,7 +51,7 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead" id="top">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 ">HandToHand</h1>
@@ -82,7 +83,7 @@
     <div class="container">
 
       <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div id ='About' class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="src/assets/img/picture(1).jpg" alt="">
         </div>
@@ -128,7 +129,7 @@
       </div>
 
       <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div id='Help' class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6 img-effect">
           <img class="img-fluid" src="src/assets/img/merch(6).jpg" alt="">
           <div class="overlay"></div>
@@ -190,7 +191,7 @@
 
   <!-- Contact Section-->
  <section class="contact-section bg-black">
-    <div class="container">
+    <div id='contact' class="container">
 
       <div class="row">
 
@@ -200,7 +201,7 @@
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Address</h4>
               <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              <div class="small text-black-50">Raffles Hills Blok C2/6</div>
             </div>
           </div>
         </div>
@@ -224,7 +225,7 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
+              <div class="small text-black-50">+62 87883880470</div>
             </div>
           </div>
         </div>
@@ -258,6 +259,7 @@
         <script src="src/js/bootstrap.min.js"></script>
         <script src="src/js/grayscale.min.js"></script>
         <script src="src/js/wow.js"></script>
+        <script src="src/js/jquery.easing.min.js"></script>
 
         
     </body>
