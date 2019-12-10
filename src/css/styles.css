@@ -116,20 +116,20 @@
   top: 0px;
   left: 0px;
   overflow: hidden;
-  /* transform: translate3d(0px, 0px, 0px);  */
-  height: 100%;
+  transform: translate3d(0px, 0px, 0px); 
+  height: auto;
+  min-height: 35rem;
   width: 100%;
   background: linear-gradient(to bottom,rgba(22,22,22,.3) 0, rgba(22,22,22,.7) 75%,#161616 100%), url(../assets/img/picturebgbw.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
-/* @media(max-width:769px){
-  .parallax{
-    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0, rgba(22,22,22,.7) 75%,#161616 100%), url(../assets/img/picturebgbwphone2.jpg);
-    height: 769px;
-
+@media (min-width: 992px){
+  .parallax {
+      height: 100vh;
+      padding: 0; 
   }
-} */
+}
