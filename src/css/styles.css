@@ -133,3 +133,18 @@
       padding: 0; 
   }
 }
+
+@media (min-width:992px ){
+  #logo_hand{
+    display: inline-block !important;
+  }
+  #logo_hand_horizontal{
+    display: none !important
+  }
+}
+#logo_hand{
+  display: none;
+}
+#logo_hand_horizontal{
+ padding-left:3em ;
+} 
