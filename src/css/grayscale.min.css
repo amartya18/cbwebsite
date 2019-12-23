@@ -73,7 +73,10 @@
     width:100%;
     height:auto;
     min-height:35rem;
-    padding:15rem 0;
+    padding-top:15rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0;
     /* background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,
     rgba(22,22,22,.7) 75%,#161616 100%),
     url(../assets/img/picturebgbw.jpg);
@@ -84,10 +87,10 @@
 }
 .masthead h1{
     font-family:'Varela Round';
-    font-size:2.5rem;
+    font-size:2rem;
     line-height:2.5rem;
     letter-spacing:.5rem;
-    background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+    background:-webkit-linear-gradient(rgba(255, 255, 255, 0.9),rgba(255,255,255,0));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text
 }
@@ -108,7 +111,7 @@
 @media (min-width:768px){
     .masthead h1{
         font-size:4rem;
-        line-height:4rem
+        line-height:4rem;
     }
 }
 @media (min-width:992px){
@@ -155,7 +158,7 @@
     margin-bottom:5rem
     }
 .projects-section{
-    padding-top:7rem;
+    padding-top:4rem;
     padding-bottom: 10rem;
     padding-left: 0;
     padding-right: 0;
@@ -167,6 +170,9 @@
     .projects-section .featured-text{
         padding:0 0 0 2rem;
         border-left:.5rem solid #7FA9F7
+    }
+    .projects-section{
+        padding-top: 7rem;
     }
 }
 .projects-section .project-text{

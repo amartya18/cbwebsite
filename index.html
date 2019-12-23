@@ -18,6 +18,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="src/css/all.min.css">
         <link rel="stylesheet" href="src/css/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
         
         
     </head>
@@ -55,7 +57,6 @@
       </div>
     </div>
   </nav>
-
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center wow fadeIn">
@@ -96,14 +97,32 @@
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left wow fadeInRight">
             <h3>Who Are We?</h3>
-            <p class="text-black-50 mb-0">
+            <p  id="who-are-we-text" class="text-black-50 mb-0">
                 HandToHand focuses on Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis ipsum eligendi debitis ipsa odit error illo sequi, 
                 culpa ducimus natus magnam quidem facere necessitatibus velit tempora. Blanditiis, suscipit enim.
             </p>
-            <a href="#about" class="btn btn-primary js-scroll-trigger" style="margin-top: 20px;">About us</a>
+            <div id="expand-about" class="btn btn-primary js-scroll-trigger" style="margin-top: 20px;">About us</div>
           </div>
         </div>
       </div>
+      
+
+      <!--HIDDEN CONTENT-->
+      <div id ='about-expand' class="row align-items-center no-gutters mb-4 mb-lg-5 d-none">
+        <div class="col-xl-8 col-lg-7 wow fadeInDown">
+          <img class="img-fluid mb-3 mb-lg-0" src="src/assets/img/picture(1).jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left wow fadeInDown">
+            <h3>Who Are We?</h3>
+            <p  class="text-black-50 mb-0">
+                HandToHand focuses on Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis ipsum eligendi debitis ipsa odit error illo sequi, 
+                culpa ducimus natus magnam quidem facere necessitatibus velit tempora. Blanditiis, suscipit enim.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--HIDDEN CONTENT-->
 
       <!--OBJECTIVES-->
       <div class="container-fluid mt-5 mb-3 text-center"><h3>Our Objectives</h3></div>
@@ -154,7 +173,7 @@
       </div>
 
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters wow bounceInUp">
+      <div class="row justify-content-center no-gutters wow fadeInUp">
         <div class="col-lg-6 img-effect">
           <img class="img-fluid" src="src/assets/img/merch(4).jpg" alt="">
           <div class="overlay"></div>
@@ -219,7 +238,7 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">areum@HandToHand.id</a>
+                <a href="#">areum@gmail.com</a>
               </div>
             </div>
           </div>
@@ -244,7 +263,7 @@
         <a href="#" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#" class="mx-2">
+        <a href="https://www.instagram.com/hand_to_hand.id/" class="mx-2">
             <i class="fab fa-instagram"></i>
           </a>
       </div>
