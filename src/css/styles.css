@@ -127,6 +127,13 @@
   background-size: cover;
 }
 
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.parallax {}
+
 @media (min-width: 992px){
   .parallax {
       height: 100vh;
@@ -146,3 +153,8 @@
   display: none;
 }
 
+@media (min-width: 992px){
+    .border-blue{
+      border-right:.5rem solid #7fa9f7
+    }
+}
