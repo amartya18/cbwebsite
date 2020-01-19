@@ -252,6 +252,14 @@ display: block; /* remove extra space below image */
             /*border: 1px solid black;*/
             height: 30px;
           }
+          .my-flex-container4{
+            flex: 2;
+            border-left:2px solid #7fa9f7;
+            border-right:2px solid #7fa9f7;
+            height: 500px auto;
+            /*width: 737.25px;*/
+            /*margin-bottom: 20px;*/
+          }
           .my-flex-item4{
             background-color: lightgrey;
             border-right: 1px dotted grey;
@@ -316,7 +324,7 @@ display: block; /* remove extra space below image */
           }
           
           hr.new5 {
-            border: 5px solid black;
+            border: 5px solid #7fa9f7;
             border-radius: 5px;
           }          
 
