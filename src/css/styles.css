@@ -391,3 +391,9 @@ display: block; /* remove extra space below image */
   }
   
 }
+
+.section-dark{
+  background-color: #ececec;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
