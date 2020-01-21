@@ -1,7 +1,86 @@
+/*.mencoba-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.mencoba{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  transition: 200ms ease-in-out;
+  border:1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 1200px;
+  height: 500px;
+  max-width: 80%;
+}
+.mencoba.active{
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.mencoba-header .title{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.mencoba-header .close-button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.mencoba-body{
+  padding:10px 15px;
+}
+#overlay2{
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none;
+}
+#overlay2.active{
+  opacity: 1;
+  pointer-events: all;
+}
+#overlay2{
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none;
+}
+#overlay2.active{
+  opacity: 1;
+  pointer-events: all;
+}*/
 img{
   filter:grayscale(40%)
 }
-
+.collapse img{
+  transition: transform .2s;
+}
+.collapse img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+  border:1px solid black;
+  filter:grayscale(20%)
+}
 .carousel-indicators li{
   border-radius: 50 !important;
   width: 20px;
@@ -344,6 +423,23 @@ display: block; /* remove extra space below image */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  transition: all 0.5s ease;
+  /*-webkit-filter:blur(5px);*/
+
+}
+#founder:hover{
+  -ms-transform: scale(1.025); /* IE 9 */
+  -webkit-transform: scale(1.025); /* Safari 3-8 */
+  /*-webkit-filter:blur(0px);*/
+  background: url(../assets/img/Snapseed.jpg);
+  filter: grayscale(10%);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  z-index: 1;
+}
+
 }
 .founder-text{
   position: absolute;
@@ -398,4 +494,16 @@ display: block; /* remove extra space below image */
     font-size: 90%;
   }
   
+}
+
+.section-dark{
+  background-color: #ececec;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-visionmission{
+  background-image: url(../assets/img/IMG_9344_upscaled_image_x4.jpg);
+  background-size: cover;
+  filter: grayscale(40%);
+  background-position: center;
 }
