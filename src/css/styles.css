@@ -78,7 +78,9 @@ img{
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05); 
-  border:1px solid black;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 5px;
+  /*border:1px solid black;*/
   filter:grayscale(20%)
 }
 .carousel-indicators li{
@@ -301,6 +303,7 @@ img{
 padding:0px;
 max-width: 100% auto;
 max-height: 100% auto;
+ box-shadow: 0px 0px 2px grey;
 display: block; /* remove extra space below image */
 }
           .my-flex-container-column{
@@ -327,15 +330,17 @@ display: block; /* remove extra space below image */
             margin-left: 0px;
           }
           .my-flex-item3{
-            background-color: #7fa9f7;
-            /*border: 1px solid black;*/
-            height: 30px;
+            background-color: darkblue;
+            border-radius: 5px;
+            height: 27.5px;
+            border-bottom: 3px solid darkblue;
           }
           .my-flex-container4{
             flex: 2;
             border-left:2px solid #7fa9f7;
             border-right:2px solid #7fa9f7;
             height: 500px auto;
+           
             /*width: 737.25px;*/
             /*margin-bottom: 20px;*/
           }
@@ -344,12 +349,7 @@ display: block; /* remove extra space below image */
             border-right: 1px dotted grey;
             height: 50px;
           }
-          .my-flex-item5{
-            /*background-color: #7fa9f7;*/
-            /*border: 1px solid black;*/
-            height: 30px;
-            width: 350px;
-          }
+
           .blackandwhite{
             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
             filter: grayscale(100%);
@@ -403,7 +403,8 @@ display: block; /* remove extra space below image */
           }
           
           hr.new5 {
-            border: 5px solid #7fa9f7;
+            width:315px;
+            border: 2px solid #7fa9f7;
             border-radius: 5px;
           }          
 
@@ -424,15 +425,19 @@ display: block; /* remove extra space below image */
   background-attachment: scroll;
   background-size: cover;
   transition: all 0.5s ease;
-  /*-webkit-filter:blur(5px);*/
+  padding: 1rem;
+  -webkit-filter:blur(5px);
 
 }
+
 #founder:hover{
   -ms-transform: scale(1.025); /* IE 9 */
   -webkit-transform: scale(1.025); /* Safari 3-8 */
   /*-webkit-filter:blur(0px);*/
   background: url(../assets/img/Snapseed.jpg);
   filter: grayscale(10%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: scroll;
