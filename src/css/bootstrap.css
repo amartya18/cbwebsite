@@ -4180,7 +4180,9 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 20px;
+  /*border-radius: 0.3rem;*/
+
   outline: 0; }
 
 .modal-backdrop {
@@ -4209,13 +4211,17 @@ a.close.disabled {
     margin: -1rem -1rem -1rem auto; }
 
 .modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
   margin-bottom: 0;
   line-height: 1.5; }
 
 .modal-body {
+  font-size: 1.25rem;
+  /*font-weight: bold;*/
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem; }
+  padding: 1.5rem}
 
 .modal-footer {
   display: flex;
