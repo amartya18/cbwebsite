@@ -68,6 +68,10 @@
   opacity: 1;
   pointer-events: all;
 }*/
+::selection {
+  color: white;
+  background: black;
+}
 img{
   filter:grayscale(40%)
 }
@@ -330,7 +334,7 @@ display: block; /* remove extra space below image */
             margin-left: 0px;
           }
           .my-flex-item3{
-            background-color: darkblue;
+            /*background-color: darkblue;*/
             border-radius: 5px;
             height: 27.5px;
             border-bottom: 3px solid darkblue;
