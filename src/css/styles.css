@@ -1,7 +1,26 @@
+.img-responsive{
+  padding-left: 0.5rem;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
 img{
   filter:grayscale(40%)
 }
-
+.collapse img{
+  transition: transform .2s;
+}
+.collapse img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 5px;
+  /*border:1px solid black;*/
+  filter:grayscale(20%)
+}
 .carousel-indicators li{
   border-radius: 50 !important;
   width: 20px;
@@ -219,9 +238,10 @@ img{
   /*background-color:#7fa9f7; */
 }
 .my-flex-container img{
-padding:0px;
+padding :0.5rem;
 max-width: 100% auto;
 max-height: 100% auto;
+ /*box-shadow: 0px 0px 2px grey;*/
 display: block; /* remove extra space below image */
 }
           .my-flex-container-column{
@@ -247,21 +267,24 @@ display: block; /* remove extra space below image */
             /*border-right:1px solid black;*/
             margin-left: 0px;
           }
-          .my-flex-item3{
-            background-color: #7fa9f7;
-            /*border: 1px solid black;*/
-            height: 30px;
+          
+        
+          .my-flex-container4{
+            flex: 2;
+            /*border-left:2px solid #7fa9f7;*/
+            /*border-right:2px solid #7fa9f7;*/
+            height: 500px auto;
+           
+            /*width: 737.25px;*/
+            /*margin-bottom: 20px;*/
           }
           .my-flex-item4{
             background-color: lightgrey;
             border-right: 1px dotted grey;
             height: 50px;
           }
-          .my-flex-item5{
-            /*background-color: #7fa9f7;*/
-            /*border: 1px solid black;*/
-            height: 30px;
-            width: 350px;
+          .my-flex-item6{
+            /*padding: 0.5rem;*/
           }
           .blackandwhite{
             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -316,7 +339,8 @@ display: block; /* remove extra space below image */
           }
           
           hr.new5 {
-            border: 5px solid black;
+            width:315px;
+            border: 2px solid #7fa9f7;
             border-radius: 5px;
           }          
 
@@ -336,6 +360,27 @@ display: block; /* remove extra space below image */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  transition: all 0.5s ease;
+  padding: 1rem;
+  -webkit-filter:blur(5px);
+
+}
+
+#founder:hover{
+  -ms-transform: scale(1.025); /* IE 9 */
+  -webkit-transform: scale(1.025); /* Safari 3-8 */
+  /*-webkit-filter:blur(0px);*/
+  background: url(../assets/img/Snapseed.jpg);
+  filter: grayscale(10%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  z-index: 1;
+}
+
 }
 .founder-text{
   position: absolute;
@@ -396,4 +441,10 @@ display: block; /* remove extra space below image */
   background-color: #ececec;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.section-visionmission{
+  background-image: url(../assets/img/IMG_9344_upscaled_image_x4.jpg);
+  background-size: cover;
+  filter: grayscale(40%);
+  background-position: center;
 }

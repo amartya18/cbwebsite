@@ -21,8 +21,9 @@
         <link rel="stylesheet" href="src/css/animate.css">
         <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
-        
+        <script src="src/js/script2.js"></script>
     </head>
+
 <body id='page-top'>
     <div class="parallax"></div>
       <!-- Navigation -->
@@ -58,6 +59,7 @@
     </div>
   </nav>
   <!-- Header -->
+
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
@@ -70,6 +72,69 @@
       </div>
     </div>
   </header>
+
+<!-- CARD READ MORE SECTION -->
+<div class="modal fade" id="SDNSUKATANI" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >SDN SUKATANI</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Today we headed over to SDN sukatani 2, a national school that is located along small roads that are hidden between the small housing areas. Together 
+        with @seedling.id we taught the students about deforestation and how important it is for us, the 
+        young generation, to protect our earth's environment
+        The activities we had them do today included 
+        making recycled bracelets/necklaces as well as 
+        planting a couple of trees there at their school. In the class, we took the time to sit them down and explain just what deforestation is, how it works, how to prevent 
+        it, why prevent it and much more like so. It was memorable for both the children and our team.
+      </div>
+      <div class="modal-footer">
+        October 12, 2019
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="SEKOLAHASEMKA" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >SEKOLAH ASEMKA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       Our second official visit was to Sekolah Belajar ASEMKA, right in the middle of what anyone would call nowhere! Despite studying on thin mattresses, rocky land and under a bridge where sitting straight was a struggle, the children studied with a fiery passion, continually asked questions and perpetually wanted to learn more.                              
+      </div>
+      <div class="modal-footer">
+        September 9, 2019
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="SDNHARJAMUKTI" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >SDN HARJAMUKTI</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">      
+        SDN Harjamukti 2 was HandtoHand’s first ever official visit. As a team, we visited Indonesian kids who don’t have the resources to learn the global language; English. It was amazing to see how determined the children were to get the English words right. Despite not having an English lesson, the children knew more than expected. We made a promise that day, both the children and our team, that despite the drawbacks that life may bring, our hope shall not fall back.
+      </div>
+      <div class="modal-footer">
+        September 4, 2019
+      </div>
+    </div>
+  </div>
+</div>
+<!-- CARD READ MORE SECTION -->
 
 
   <!-- Projects Section -->
@@ -88,7 +153,6 @@
             <h1  class="font-weight-bold"><span class="text-primary">About</span> Us</h1>
             <p id="who-are-we-text" class="text-black-50 mb-0"> 
             </p>
-            <div id="expand-about" class="btn btn-primary js-scroll-trigger" style="margin-top: 20px;">About us</div>
           </div>
         </div>
       </div>
@@ -111,6 +175,8 @@
                   <p class="mb-0 text-black-50">With one hand representing a child and the other representing 
                     all the youth and adults, our logo simply symbolizes a helping hand towards all the children 
                     and adolescents who do not have any access to proper education. The color blue also represents sincerity in peace and equality.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#expand-about" style="margin-top: 20px">More About Us</button>
+                    <!-- <div id="expand-about" class="btn btn-primary" style="margin-top: 20px;">More About us</div> -->
                 </div>
               </div>
             </div>
@@ -122,6 +188,7 @@
 
 
         <!--MORE SECTION DIFFERENT BACKGROUND-->
+      <div class="collapse" id="expand-about">
         <section class="section-dark">
           <div class="container">
           <h1 class="text-center font-weight-bold mb-5">More <span class="text-primary">About us</span></h1>
@@ -135,7 +202,7 @@
                 <img class="img-fluid" src="src/assets/img/gridpic-2.jpg">
               </div>
               <div class="col-lg-6">
-                <div class="about-text text-center bg-blue h-100 mx-auto">
+                <div class="about-text text-center bg-blue h-100 mx-auto ">
                     <h6 class="text-white mb-0">Founded in September 2019, Handtohand now strives to achieve equality 
                       for education focusing on different regions of Indonesia</h6>
                       <hr class="d-none d-lg-block white-border mb-0 ml-0">
@@ -159,7 +226,9 @@
         <!--FOUNDER SECTION-->
         <div id='aboutfounder' class="row justify-content-center no-gutters mb-5 wow zoomIn">
           <div class="col-lg-9 img-effect" id='founder'>
+            <div class="founder-text">
             <h5 class="text-white founder-text">Founder, Yoo Areum</h5>
+            </div>
           </div>
           <div class="col-lg-3">
             <div class="text-center h-100 project bg-white">
@@ -175,29 +244,45 @@
         <!--FOUNDER SECTION-->
       </div>
       </section>
-
+    </div>
       </div>
-
     <!--VISION AND MISSION-->
-    <section class="bg-light py-5 ">
-    <div class="container mt-5 mb-3 text-center mb-5">
+    <section class="bg-light  pt-5">
+    <div class="container mt-5- mb-0 text-center mb-0">
       <h1 class="text-center font-weight-bold mb-5">VISION AND<span class="text-primary"> MISSION</span></h1>
-        <div class="d-flex flex-row justify-content-between my-flex-container mb-2">
-          <img class="blackandwhite img-fluid" src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" width="350" height="250">
-          <img src="https://lh5.googleusercontent.com/26Lxv2E0j-9zxwyPBWwGecsjSBfqxeyvpTQYoeNhw6LnJYBhMrqyFevo2bfzak4Gpr3TyB67GtZ80PMbekCtBy7zjZ96YGz51zZuTC6sUAfQxUnDtH3wSEv5EKau1jJvBpzFp_g9XvQ" width="350" height="250">
-          <img src="https://lh5.googleusercontent.com/LFH5Gf5KDYtO7XurPRTfhiSItnDA3lYeAgwuwbxxWeGbujZVWrEd6NKtz17uQXmYGJenTap8QXx6MsfsSpN8xMuecBzrGZieVyVcCcHv" width="350" height="250">
+        <div class=" justify-content-between mb-2 ">
+          <div class="row ">
+            <!-- <div class="col-lg-4  d-none d-lg-block"> -->
+              <img class="blackandwhite col-lg-4 img-effect d-none d-lg-block" src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" >
+            <!-- </div> -->
+            <!-- <div class="col-lg-4 d-none d-lg-block"> -->
+              <img class=" col-lg-4 d-none d-lg-block" src="https://lh5.googleusercontent.com/26Lxv2E0j-9zxwyPBWwGecsjSBfqxeyvpTQYoeNhw6LnJYBhMrqyFevo2bfzak4Gpr3TyB67GtZ80PMbekCtBy7zjZ96YGz51zZuTC6sUAfQxUnDtH3wSEv5EKau1jJvBpzFp_g9XvQ" >
+            <!-- </div> -->
+            <!-- <div class="col-lg-4 "> -->
+              <img class=" col-lg-4  " src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" >
+            <!-- </div> -->
         </div>
-        <div class="my-flex-item3 mb-2">
-          <div class="container-fluid mb-3 text-center text-white"><h4>TO CREATE A PHENOMENON, TO ENCOURAGE MORE HEARTS TO LEARN</h4></div>
+      </div>
+        <div class=" mb-2 mt-5">
+          <div class="container-fluid mb-3 text-center text-white  "><h4 class="visible-lg" style="background-color: darkblue ; border-radius: 0.5rem">To create a phenomenon, To encourage more hearts to learn</h4></div>
         </div>
-        <div class="d-flex flex-row justify-content-between my-flex-container mb-2">
-          <img src="https://lh6.googleusercontent.com/NQ1rx3lrmjc3Gt_GmsER-PlVivXGM4aO168wjbLn_tk-dZWWuiWe9znzFXvTFQGuJI3PHfTJOcMbqOzQkp17KU52ISpEv6NI6RSZwK_MPg" width="350" height="250">
-          <img class="blackandwhite" src="https://lh5.googleusercontent.com/iQKl19MfgflxbgnvQ-Zd-5G1bn1YH76FZX9-1fiHbw4lUihcxI2u3dfBeywlb2Lxfl9GhyvuAiivzKkYdS1I-2kDqOXyeElCDsuaYvU_" width="350" height="250">
-          <img src="src/assets/img/black1.png" width="350" height="250">
+        <div class="justify-content-between  mb-2 mt-5">
+          <div class="row ">
+            <!-- <div class="col-lg-4  d-none d-lg-block"> -->
+              <img class="col-lg-4 col d-none d-lg-block" src="src/assets/img/black1.png" >
+            <!-- </div> -->
+            <!-- <div class="col-lg-4 d-none d-lg-block"> -->
+              <img class="blackandwhite col-lg-4 d-none d-lg-block" src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ">
+            <!-- </div> -->
+            <!-- <div class="col-lg-4 "> -->
+              <img class="col-lg-4 " src="src/assets/img/black1.png" >
+            <!-- </div> -->
+          </div>
         </div>
-        <div class="my-flex-item3 mb-2">
-          <div class="container-fluid mb-3 text-center text-white"><h4>HAND TO HAND STRIVES TO REACH EQUALITY OF EDUCATION THAT HAS BEEN LOST</h4></div>
+        <div class=" mt-5">
+          <div class="container-fluid mb-3 text-center text-white "><h4 style="background-color: darkblue ; border-radius:0.5rem">Hand to Tand Strives to reach equality of education that has been lost</h4></div>
         </div>
+      </div>
         <!-- <div class="d-flex flex-row justify-content-between my-flex-container mb-2">
           <img class="blackandwhite" src="https://lh4.googleusercontent.com/fnB67iqOX-2HVhh1BCj_na_F--pdW1PezR146_nsCwUF7_uurtLgG8klIRr4WwLpmhXuurbfl5xmcOWja68oivJlBbph6emvbSfRUwao" width="350" height="250">
           <img src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" width="350" height="250">
@@ -206,6 +291,7 @@
         <!-- <div class="d-flex flex-row justify-content-center align-items-end my-flex-container ">
           <button class="tombol" data-toggle="collapse" data-target="#expand-readmore">Read More</button>
         </div> -->
+      
         <div class="d-flex flex-row justify-content-center align-items-center my-flex-container2 ">
           <div class="pointer" data-toggle="collapse" data-target="#expand-readmore">
             <span></span>
@@ -213,28 +299,37 @@
             <span></span>
           </div>
         </div>
-      <div class="collapse" id="expand-readmore">
+      <div class="section-visionmission ">
+        <div class="container mt-0 mb-0 text-center mb-0">
+      <div class="collapse pb-3" id="expand-readmore">
         <div class = "d-flex flex-row justify-content-center flex-wrap my-flex-container">
-          <div class="my-flex-item5 text-lg-left"><font size = "5">Vision</font></div>
-          <div class="my-flex-item5 text-lg-right"><font size = "5">Mission</font></div>
+          
+          
         </div>
-        <div class = "d-flex flex-row justify-content-between flex-wrap my-flex-container3 mb-5 ">
-
-          <div class="circle">
-            <div class="circlecontent">
-              <p><font size = "4">Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</font></p>
+        <div class = "d-flex flex-row justify-content-between flex-wrap my-flex-container3 mt-3 col-sm-12">
+          <div>
+            <div class="my-flex-item5"><h2><b>Vision</b></h2></div>
+            <div class="circle">
+              <div class="about-text order-lg-first text-center circlecontent font-weight-bold">
+                <p><font size = "5">Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</font></p>
+              </div>
             </div>
           </div>
-          <div class="circle2">
-            <div class="circlecontent">
-              <p><font size = "4">Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization..</font></p>
+          <div>
+            <div class="my-flex-item5"><h2><b>Mission</b></h2></div>
+            <div class="circle2 ">
+              <div class="about-text order-lg-first text-center circlecontent font-weight-bold">
+                <p><font size = "5">Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization..</font></p>
+              </div>
             </div>
           </div>
         </div>
-        <hr class="new5">
+        <!-- <hr class="new5"> -->
+      </div>
       </div>
     </div>
     </section>
+
 
 <section class="section-dark">
 
@@ -250,8 +345,11 @@
           <figcaption>
             <div>
               <h2>SDN <br><b>SUKATANI</b></h2>
-              <a href="" class="btn btn-primary">READ MORE</a>
+              <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Launch demo modal</button>  -->
+
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNSUKATANI">READ MORE</a>
             </div>
+            
           </figcaption>			
         </figure>
       </div>
@@ -262,7 +360,7 @@
           <figcaption>
             <div>
               <h2>SEKOLAH <br><b>ASEMKA</b></h2>
-              <a href="" class="btn btn-primary">READ MORE</a>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SEKOLAHASEMKA">READ MORE</a>
             </div>
           </figcaption>			
         </figure>
@@ -274,7 +372,7 @@
 				<figcaption>
 					<div>
 						<h2>SDN <br><b>HARJAMUKTI</b></h2>
-						<a href="" class="btn btn-primary">READ MORE</a>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNHARJAMUKTI">READ MORE</a>
 					</div>
 				</figcaption>			
       </figure>
@@ -326,9 +424,23 @@
       </div>
 
     </div>
+    <div class="container">
+
+      <div class="container-fluid mt-5 text-lg-left mb-5  mb-5"><h3><a href="#">HandtoHand TV</a><i class="fa fa-television ml-2" style="font-size:24px ;color:grey"></i></h3></div>
+      <div class="d-flex flex-row justify-content-center my-flex-container4 mb-5">
+        <!-- 916.7 or 1105 -->
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1105" height="515" type="text/html" src="https://www.youtube.com/embed/DBXH9jJRaDk?autoplay=1&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd1080&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode.com/de/</a></small></div><div><small><a href="http://add-link-exchange.com">w://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode.com/nl/</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode pl</a></small></div><div><small><a href="http://add-link-exchange.com">addlink-exchange</a></small></div></iframe> 
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
   </div>
     </section> 
- 
 
   <!-- Signup Section -->
   <section id="signup" class="signup-section">
@@ -417,6 +529,7 @@
   </footer>
 
         <!-- jquery popper bootstrap -->
+        <script src="src/js/script2.js"></script>
         <script src="src/js/jquery.min.js"></script>
         <script src="src/js/popper.min.js"></script>
         <script src="src/js/bootstrap.min.js"></script>
