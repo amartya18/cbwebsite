@@ -25,8 +25,10 @@
     </head>
 
 <body id='page-top'>
+
     <div class="parallax"></div>
       <!-- Navigation -->
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container" >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -42,21 +44,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href='#page-top'>Home</a>
-            </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#About">About Us</a>
+              <a id ="n1"class="nav-link js-scroll-trigger" href='#page-top'>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Help">Activity</a>
+            <a id ="n2" class="nav-link js-scroll-trigger" href="#About">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a id ="n3" class="nav-link js-scroll-trigger" href="#Help">Activity</a>
+          </li>
+          <li class="nav-item">
+            <a id ="n4" class="nav-link js-scroll-trigger" href="#signup">Contact</a>
           </li>
         </ul>
       </div>
     </div>
+    <a  class="p-1" href="#eng" data-reload onclick="timeFunction()">ENG</a>
+    <div class="vl"></div>
+    <a  class="p-1 " href="#id" data-reload onclick="timeFunction()">IND</a>
   </nav>
   <!-- Header -->
 
@@ -64,11 +69,10 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">HandToHand</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A helping hand for every child that do not have the opportunity to access education
+        <h2 id="hth"class="text-white-50 mx-auto mt-2 mb-5">A helping hand for every child that do not have the opportunity to access education
 
         </h2>
-        <a href="#About" class="btn btn-primary js-scroll-trigger">Read More</a>
-        <!-- <a href="#About" class="nav-link js-scroll-trigger">About Us</a> -->
+        <a id="hthButton"href="#About" class="btn btn-primary js-scroll-trigger">Read More</a>
       </div>
     </div>
   </header>
@@ -83,7 +87,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div id="d1a" class="modal-body">
         Today we headed over to SDN sukatani 2, a national school that is located along small roads that are hidden between the small housing areas. Together 
         with @seedling.id we taught the students about deforestation and how important it is for us, the 
         young generation, to protect our earth's environment
@@ -108,7 +112,8 @@
         </button>
       </div>
       <div class="modal-body">
-       Our second official visit was to Sekolah Belajar ASEMKA, right in the middle of what anyone would call nowhere! Despite studying on thin mattresses, rocky land and under a bridge where sitting straight was a struggle, the children studied with a fiery passion, continually asked questions and perpetually wanted to learn more.                              
+        <p id="d1b">Our second official visit was to Sekolah Belajar ASEMKA, right in the middle of what anyone would call nowhere! Despite studying on thin mattresses, rocky land and under a bridge where sitting straight was a struggle, the children studied with a fiery passion, continually asked questions and perpetually wanted to learn more.</p>
+                                   
       </div>
       <div class="modal-footer">
         September 9, 2019
@@ -125,7 +130,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">      
+      <div id="d1c"class="modal-body">      
         SDN Harjamukti 2 was HandtoHand’s first ever official visit. As a team, we visited Indonesian kids who don’t have the resources to learn the global language; English. It was amazing to see how determined the children were to get the English words right. Despite not having an English lesson, the children knew more than expected. We made a promise that day, both the children and our team, that despite the drawbacks that life may bring, our hope shall not fall back.
       </div>
       <div class="modal-footer">
@@ -150,8 +155,8 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left wow fadeInRight">
-            <h1  class="font-weight-bold"><span class="text-primary">About</span> Us</h1>
-            <p id="who-are-we-text" class="text-black-50 mb-0"> 
+            <h1 class="font-weight-bold"><span id="b1a" class="text-primary">About</span><span id="b1b"> Us</span></h1>
+            <p id="ctk" class="text-black-50 mb-0"> Here, we stand as individuals that are responsible for the future generation. We are accountable for how we build the nation today.The complications that are caused by the
             </p>
           </div>
         </div>
@@ -171,11 +176,12 @@
             <div class="text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="p-3 w-100 my-auto text-lg-left">
-                  <h3 class="text-primary">What does our logo represent?</h3>
-                  <p class="mb-0 text-black-50">With one hand representing a child and the other representing 
+                  <h3 id="b2a" class="text-primary">What does our logo represent?</h3>
+                  <p id="b2b"class="mb-0 text-black-50">With one hand representing a child and the other representing 
                     all the youth and adults, our logo simply symbolizes a helping hand towards all the children 
                     and adolescents who do not have any access to proper education. The color blue also represents sincerity in peace and equality.</p>
-                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#expand-about" style="margin-top: 20px">More About Us</button>
+                    <button id="b2c" type="button" class="btn btn-primary" data-toggle="collapse" data-target="#expand-about" style="margin-top: 20px">More About Us</button>
+                        
                     <!-- <div id="expand-about" class="btn btn-primary" style="margin-top: 20px;">More About us</div> -->
                 </div>
               </div>
@@ -191,7 +197,7 @@
       <div class="collapse" id="expand-about">
         <section class="section-dark">
           <div class="container">
-          <h1 class="text-center font-weight-bold mb-5">More <span class="text-primary">About us</span></h1>
+          <h1 class="text-center font-weight-bold mb-5"><span id="b3a">More</span> <span id="b3b" class="text-primary">About us</span></h1>
         <div class="row align-items-center pb-3">
           <div class="col-lg-4 d-none d-lg-block img-effect wow fadeInUp">
             <img class="" src="src/assets/img/gridpic-1.jpg" style="height: 100%; width: 100%; object-fit: contain" alt="">
@@ -202,8 +208,8 @@
                 <img class="img-fluid" src="src/assets/img/gridpic-2.jpg">
               </div>
               <div class="col-lg-6">
-                <div class="about-text text-center bg-blue h-100 mx-auto ">
-                    <h6 class="text-white mb-0">Founded in September 2019, Handtohand now strives to achieve equality 
+                <div id="f3" class="about-text text-center bg-blue h-100 mx-auto ">
+                    <h6 id="b4a" class="text-white mb-0">Founded in September 2019, Handtohand now strives to achieve equality 
                       for education focusing on different regions of Indonesia</h6>
                       <hr class="d-none d-lg-block white-border mb-0 ml-0">
                 </div>
@@ -213,8 +219,8 @@
               <div class="col-lg-7">
                 <img class="img-fluid" src="src/assets/img/gridpic-3.jpg">
               </div>
-              <div class=" col-lg-5 about-text order-lg-first text-center bg-blue">
-                <h6 class="text-white mb-0">Existing as a social movement, we are here to create an impact on the youth by lending a helping hand.
+              <div id="f4" class=" col-lg-5 about-text order-lg-first text-center bg-blue">
+                <h6 id="b4b" class="text-white mb-0">Existing as a social movement, we are here to create an impact on the youth by lending a helping hand.
                 </h6>
                 <hr class="d-none d-lg-block white-border mb-0">
               </div>
@@ -234,7 +240,7 @@
             <div class="text-center h-100 project bg-white">
               <div class="d-flex h-100">
                 <div class="p-lg-5 p-4 founder-quotes  w-100 my-auto text-center text-lg-left">
-                  <h5 class="mb-0 text-black-50">“Each step we take reveals a 
+                  <h5 id="b4c"class="mb-0 text-black-50">“Each step we take reveals a 
                     new horizon, we have taken the first step today. Now, i challenge you to take another”</h5>
                 </div>
               </div>
@@ -249,7 +255,7 @@
     <!--VISION AND MISSION-->
     <section class="bg-light  pt-5">
     <div class="container mt-5- mb-0 text-center mb-0">
-      <h1 class="text-center font-weight-bold mb-5">VISION AND<span class="text-primary"> MISSION</span></h1>
+      <h1 class="text-center font-weight-bold mb-5"><span id="b5a">VISION AND</span><span id="b5b" class="text-primary"> MISSION</span></h1>
         <div class=" justify-content-between mb-2 ">
           <div class="row ">
             <!-- <div class="col-lg-4  d-none d-lg-block"> -->
@@ -264,7 +270,7 @@
         </div>
       </div>
         <div class=" mb-2 mt-5">
-          <div class="container-fluid mb-3 text-center text-white  "><h4 class="visible-lg" style="background-color: darkblue ; border-radius: 0.5rem">To create a phenomenon, To encourage more hearts to learn</h4></div>
+          <div class="container-fluid mb-3 text-center text-white  "><h4 id="b6a" class="visible-lg" style="background-color: darkblue ; border-radius: 0.5rem">To create a phenomenon, To encourage more hearts to learn</h4></div>
         </div>
         <div class="justify-content-between  mb-2 mt-5">
           <div class="row ">
@@ -280,7 +286,7 @@
           </div>
         </div>
         <div class=" mt-5">
-          <div class="container-fluid mb-3 text-center text-white "><h4 style="background-color: darkblue ; border-radius:0.5rem">Hand to Tand Strives to reach equality of education that has been lost</h4></div>
+          <div class="container-fluid mb-3 text-center text-white "><h4 id="b6b" style="background-color: darkblue ; border-radius:0.5rem">Hand to Tand Strives to reach equality of education that has been lost</h4></div>
         </div>
       </div>
         <!-- <div class="d-flex flex-row justify-content-between my-flex-container mb-2">
@@ -308,17 +314,17 @@
         </div>
         <div class = "mt-3">
           <div class="row no-gutters align-items-center justify-content-between">
-            <div class="mx-auto"><h2 class="mx-auto"><b class="text-white">Vision</b></h2>
+            <div class="mx-auto"><h2 class="mx-auto"><b id="b7a" class="text-white">Vision</b></h2>
               <div class="circle ">
                 <div class="about-text2 order-lg-first text-center circlecontent font-weight-bold">
-                  <p>Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</p>
+                  <p id="b8a">Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</p>
                 </div>
               </div>
             </div>
-            <div class="mx-auto"><h2 class="mx-auto"><b>Vision</b></h2>
+            <div class="mx-auto"><h2 class="mx-auto"><b id="b7b">Mission</b></h2>
               <div class="circle bg-black ">
                 <div class=" about-text2 order-lg-first text-center text-white circlecontent font-weight-bold ">
-                  <p>Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization.
+                  <p id="b8b">Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization.
                   </p>
                 </div>
               </div>
@@ -335,7 +341,7 @@
 <section class="section-dark">
 
   <div class="container">
-    <h1 class="text-center font-weight-bold mb-5">Our<span class="text-primary"> Activity</span></h1>
+    <h1 class="text-center font-weight-bold mb-5"><span id="b9a">Our</span><span id="b9b" class="text-primary"> Activity</span></h1>
     <p class="text-dark-50 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quasi, sint suscipit consequatur, dignissimos magnam recusandae quod saepe odit sapiente esse inventore sunt, optio autem beatae accusamus deleniti. Hic, expedita.</p>
 
     <div class="card-deck text-white row py-2">
@@ -345,13 +351,13 @@
           <img src="src/assets/img/activity1.JPG" alt="img3">
           <figcaption>
             <div>
-              <h2>SDN <br><b>SUKATANI</b></h2>
+              <h2 >SDN<br><b>SUKATANI</b></h2>
               <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Launch demo modal</button>  -->
 
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNSUKATANI">READ MORE</a>
+              <a id="c4a" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNSUKATANI">READ MORE</a>
             </div>
             
-          </figcaption>			
+          </figcaption>     
         </figure>
       </div>
 
@@ -360,22 +366,22 @@
           <img src="src/assets/img/activity2.jpg" alt="img3">
           <figcaption>
             <div>
-              <h2>SEKOLAH <br><b>ASEMKA</b></h2>
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SEKOLAHASEMKA">READ MORE</a>
+              <h2 >SEKOLAH <br><b>ASEMKA</b></h2>
+              <a id="c4b" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SEKOLAHASEMKA">READ MORE</a>
             </div>
-          </figcaption>			
+          </figcaption>     
         </figure>
       </div>
       
       <div class="card" style="overflow: hidden;">
       <figure class="effect-lily">
-				<img src="src/assets/img/activity3.JPG" alt="img3">
-				<figcaption>
-					<div>
-						<h2>SDN <br><b>HARJAMUKTI</b></h2>
-						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNHARJAMUKTI">READ MORE</a>
-					</div>
-				</figcaption>			
+        <img src="src/assets/img/activity3.JPG" alt="img3">
+        <figcaption>
+          <div>
+            <h2>SDN <br><b>HARJAMUKTI</b></h2>
+            <a id="c4c" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNHARJAMUKTI">READ MORE</a>
+          </div>
+        </figcaption>     
       </figure>
     </div>
 
@@ -395,8 +401,8 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Get Involved!</h4>
-                <p class="mb-0 text-white-50">Did you know? The money that comes from purchasing one shirt will be donated to buy one book for one child!</p>
+                <h4 id="c1a" class="text-white">Get Involved!</h4>
+                <p id="c1b" class="mb-0 text-white-50">Did you know? The money that comes from purchasing one shirt will be donated to buy one book for one child!</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -414,9 +420,9 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Get our merch</h4>
-                <p class="mb-0 text-white-50">Spend it for what it's worth! Lend a helping hand and buy our shirts for 100k only!</p>
-                <a href="https://www.tokopedia.com" target="_blank" class="btn btn-primary js-scroll-trigger" style="margin-top: 20px;">I WANT</a>
+                <h4 id="c2a" class="text-white">Get our merch</h4>
+                <p id="c2b" class="mb-0 text-white-50">Spend it for what it's worth! Lend a helping hand and buy our shirts for 100k only!</p>
+                <a id="c2c" href="https://www.tokopedia.com" target="_blank" class="btn btn-primary js-scroll-trigger" style="margin-top: 20px;">I WANT</a>
 
               </div>
             </div>
@@ -437,12 +443,12 @@
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 id="my-form-status" class="text-white mb-5">Subscribe to receive updates!</h2>
+          <div id="my-form-status" class="text-white mb-5"><h2 id="c3a">Subscribe to receive updates!</h2></div>
 
           <form class="form-inline d-flex" id="my-form" action="https://formspree.io/mgeaeaqw" method="POST">
             <input type="email" name="_replyto" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button id="my-form-button" type="submit" value="Send" class="btn btn-primary mx-auto">Subscribe</button>
-            <p ></p>
+            <!-- <div id="my-form-button " type="submit" value="Send" ><button id="f2" class="btn btn-primary mx-auto">Subscribe</button></div> -->
+            <button class="btn btn-primary mx-auto" id="my-form-button" type="submit" value="Send"><p id="f2" style="margin-bottom: 0rem">Subscribe</p></button>
           </form>
 
         </div>
@@ -486,7 +492,7 @@
           <div class="card py-4 h-100">
             <div class="card-body text-center border-0">
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
+              <h4 id="f1" class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
               <div class="small text-black-50">+62 85921587355</div>
             </div>
@@ -525,7 +531,13 @@
         <script src="src/js/wow.js"></script>
         <script src="src/js/jquery.easing.min.js"></script>
         <script src="src/js/formspree.js"></script>
+        <script src="src/js/script.js"></script>
+        <script>
+          $(window).scroll(function(){
+            $('nav').toggleClass('scrolled',$(this).scrollTop()>10);
+          })
 
-        
+
+        </script>
     </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Test</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<a href="#eng" data-reload onclick="timeFunction()">English</a>
+    <a href="#id" data-reload onclick="timeFunction()">Indonesia</a>
+    <p id="hi">
+    	home
+    </p>
+<script>
+var dataReload = document.querySelectorAll("[data-reload]")
+
+document.write(dataReload[0].onclick)
+  var language = {
+    eng:{
+      welcome: "Home"
+    },
+    id:{
+      welcome : "Rumah"
+    }
+  };
+	if(window.location.hash){
+		if(window.location.hash === "#id"){
+		  hi.textContent = language.id.welcome;
+		}
+		else {
+		  hi.textContent = language.eng.welcome;
+		}
+}
+function timeFunction() {
+	setTimeout(function(){ history.go(0); }, 200);
+}
+
+// for(var i = 0 ; i <= dataReload.length ;i++){
+// dataReload[i].onclick = function(){
+//  	location.reload(true);
+// };
+// }
+
+
+
+</script>
+</body>
+</html>
