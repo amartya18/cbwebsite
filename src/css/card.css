@@ -1,11 +1,11 @@
 .card{
     max-height: 35rem;
+    margin-left: 1rem;
+   margin-right: 1rem;
 }
 @media (max-width: 1200px){
     .card{
-        max-height: 20rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        max-height: 25rem;
     }
   }
 

@@ -2,37 +2,40 @@
 <html class="no-js" lang="en">
     <head>
         <title>HandToHand</title>
+
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <link rel="icon" href="src/assets/img/logo.ico" type="image/icon type">
-        <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+
+        <!-- <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">  -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet" > -->
+        <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+
+      <!--STYLESHEET-->
         <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="src/css/bootstrap.css">
         <link rel="stylesheet" href="src/css/styles.css">
         <link rel="stylesheet" href="src/css/card.css">
         <link rel="stylesheet" href="src/css/grayscale.min.css" >
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="src/css/all.min.css">
         <link rel="stylesheet" href="src/css/animate.css">
-        <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
-        <script src="src/js/script2.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
     </head>
 
 <body id='page-top'>
-
-    <div class="parallax"></div>
-      <!-- Navigation -->
-
+  
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container" >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="src/assets/img/logoPNG.png" id ='logo_hand' a lt="LOGO" height="30">
+          <img src="src/assets/img/logoPNG.png" id ='logo_hand' alt="LOGO" height="30">
           <img src="src/assets/img/logoHandToHandhorizontal.png" id ='logo_hand_horizontal' alt="LOGO" height="40">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,16 +59,20 @@
           <li class="nav-item">
             <a id ="n4" class="nav-link js-scroll-trigger" href="#signup">Contact</a>
           </li>
+          <li class="nav-item">
+            <div class="nav-link">
+            <a href="#eng" data-reload onclick="timeFunction()">ENG </a>|
+            <a href="#id" data-reload onclick="timeFunction()"> IND</a>
+          </div>
+          </li>
         </ul>
       </div>
     </div>
-    <a  class="p-1" href="#eng" data-reload onclick="timeFunction()">ENG</a>
-    <div class="vl"></div>
-    <a  class="p-1 " href="#id" data-reload onclick="timeFunction()">IND</a>
+    
   </nav>
   <!-- Header -->
 
-  <header class="masthead">
+  <header class="masthead" id="masthead-main">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">HandToHand</h1>
@@ -146,17 +153,18 @@
   <section id="projects" class="projects-section bg-light">
     <div class="container">
       
-      <!-- Featured Project Row -->
+      <!-- ABOUT US -->
       
       <div id ='About' class="row align-items-center no-gutters mb-4 mb-lg-5">
         
         <div class="col-xl-8 col-lg-7 wow fadeInLeft">
-          <img class="img-fluid mb-3 mb-lg-0" src="src/assets/img/aboutUspic.jpeg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="src/assets/img/aboutUspic.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left wow fadeInRight">
             <h1 class="font-weight-bold"><span id="b1a" class="text-primary">About</span><span id="b1b"> Us</span></h1>
-            <p id="ctk" class="text-black-50 mb-0"> Here, we stand as individuals that are responsible for the future generation. We are accountable for how we build the nation today.The complications that are caused by the
+            <p id="ctk" class="text-black-50 mb-0"> Here, we stand as individuals responsible for our future generation. We are those accountable for how we build our nation today. The complications that are caused by the lack of education are darkening our paths to a euphoric future.
+
             </p>
           </div>
         </div>
@@ -169,7 +177,7 @@
         <div class="container">
         <!--ABOUT OUR LOGO-->
         <div class="row justify-content-center no-gutters mb-5">
-          <div class="col-lg-5 p-2 img-effect">
+          <div class="col-lg-5 p-5 img-effect d-flex justify-content-center">
             <img class="img-fluid" src="src/assets/img/logoPNG.png" alt="">
           </div>
           <div class="col-lg-7 order-lg-first">
@@ -198,36 +206,41 @@
         <section class="section-dark">
           <div class="container">
           <h1 class="text-center font-weight-bold mb-5"><span id="b3a">More</span> <span id="b3b" class="text-primary">About us</span></h1>
-        <div class="row align-items-center pb-3">
-          <div class="col-lg-4 d-none d-lg-block img-effect wow fadeInUp">
-            <img class="" src="src/assets/img/gridpic-1.jpg" style="height: 100%; width: 100%; object-fit: contain" alt="">
-          </div>
-          <div class="col-lg-8 col-md-12 align-items-start ">
-            <div class="row mb-3 wow fadeInLeft" style="animation-delay: 0.5s">
-              <div class="col-lg-6 p-md-1 p-lg-0" >
-                <img class="img-fluid" src="src/assets/img/gridpic-2.jpg">
+            <div class="row pb-3">
+              <div class="col-lg-4 d-none d-lg-block img-effect wow fadeInUp h-100" style="height:max-content;">
+                <img class="w-100" src="src/assets/img/gridpic-1.jpg" style="overflow: hidden;" alt="">
               </div>
-              <div class="col-lg-6">
-                <div id="f3" class="about-text text-center bg-blue h-100 mx-auto ">
-                    <h6 id="b4a" class="text-white mb-0">Founded in September 2019, Handtohand now strives to achieve equality 
-                      for education focusing on different regions of Indonesia</h6>
-                      <hr class="d-none d-lg-block white-border mb-0 ml-0">
+              <div class="col-lg-8 col-md-12">
+                <div class="row mb-3 wow fadeInLeft" style="animation-delay: 0.5s">
+                  <div class="col-lg-6 px-3 px-lg-0"  style="z-index: 1000;">
+                    <img class=" w-100" src="src/assets/img/gridpic-2.jpg">
+                  </div>
+                  <div class="col-lg-6">
+                    <div id="f3" class="text-center bg-blue h-100 d-flex justify-content-center align-items-center">
+                      <div>
+                        <h6 id="b4a" class="text-white px-5 py-5 py-lg-0">Founded in September 2019, Handtohand now strives to achieve equality 
+                          for education focusing on different regions of Indonesia</h6>
+                        <hr class="d-none d-lg-block white-border">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row wow fadeInRight" style="animation-delay: 0.5s">
+                  <div class="col-lg-7 px-0" style="z-index: 1000;">
+                    <img class="img-fluid" src="src/assets/img/gridpic-3.jpg">
+                  </div>
+                  <div id="f4" class=" col-lg-5 ">
+                    <div class="order-lg-first text-center bg-blue d-flex justify-content-center align-items-center h-100">
+                      <div>
+                        <h6 id="b4b" class="text-white px-5 py-5 py-lg-0">Existing as a social movement, we are here to create an impact on the youth by lending a helping hand.</h6>
+                        <hr class="d-none d-lg-block white-border mb-0">
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="row wow fadeInRight" style="animation-delay: 0.5s">
-              <div class="col-lg-7">
-                <img class="img-fluid" src="src/assets/img/gridpic-3.jpg">
-              </div>
-              <div id="f4" class=" col-lg-5 about-text order-lg-first text-center bg-blue">
-                <h6 id="b4b" class="text-white mb-0">Existing as a social movement, we are here to create an impact on the youth by lending a helping hand.
-                </h6>
-                <hr class="d-none d-lg-block white-border mb-0">
-              </div>
-            </div>
-          </div>
           
-        </div>
+          </div>
 
         <!--FOUNDER SECTION-->
         <div id='aboutfounder' class="row justify-content-center no-gutters mb-5 wow zoomIn">
@@ -239,7 +252,7 @@
           <div class="col-lg-3">
             <div class="text-center h-100 project bg-white">
               <div class="d-flex h-100">
-                <div class="p-lg-5 p-4 founder-quotes  w-100 my-auto text-center text-lg-left">
+                <div class="p-lg-5 p-4 w-100 my-auto text-center text-lg-left">
                   <h5 id="b4c"class="mb-0 text-black-50">“Each step we take reveals a 
                     new horizon, we have taken the first step today. Now, i challenge you to take another”</h5>
                 </div>
@@ -254,87 +267,68 @@
       </div>
     <!--VISION AND MISSION-->
     <section class="bg-light  pt-5">
-    <div class="container mt-5- mb-0 text-center mb-0">
-      <h1 class="text-center font-weight-bold mb-5"><span id="b5a">VISION AND</span><span id="b5b" class="text-primary"> MISSION</span></h1>
-        <div class=" justify-content-between mb-2 ">
-          <div class="row ">
-            <!-- <div class="col-lg-4  d-none d-lg-block"> -->
-              <img class="blackandwhite col-lg-4 img-effect d-none d-lg-block" src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" >
-            <!-- </div> -->
-            <!-- <div class="col-lg-4 d-none d-lg-block"> -->
-              <img class=" col-lg-4 d-none d-lg-block" src="https://lh5.googleusercontent.com/26Lxv2E0j-9zxwyPBWwGecsjSBfqxeyvpTQYoeNhw6LnJYBhMrqyFevo2bfzak4Gpr3TyB67GtZ80PMbekCtBy7zjZ96YGz51zZuTC6sUAfQxUnDtH3wSEv5EKau1jJvBpzFp_g9XvQ" >
-            <!-- </div> -->
-            <!-- <div class="col-lg-4 "> -->
-              <img class=" col-lg-4  " src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" >
-            <!-- </div> -->
+    <div class="container mt-5- mb-0 text-center">
+      <h1 class="font-weight-bold mb-5"><span id="b5a">VISION AND</span><span id="b5b" class="text-primary"> MISSION</span></h1>
+        <div class="slider vision">
+          <div class="slide px-2"><img class="img-fluid blackandwhite" src="src/assets/img/slider1-vision/slideritem (1).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid" src="src/assets/img/slider1-vision/slideritem (2).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid blackandwhite" src="src/assets/img/slider1-vision/slideritem (3).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid" src="src/assets/img/slider1-vision/slideritem (4).jpg" alt=""></div>
+        </div>
+        <div class="my-3 px-1">
+          <div class=" text-center text-white  "><h5 id="b6a" class="py-2 px-3 bg-blue text-uppercase">To create a phenomenon, To encourage more hearts to learn</h5></div>
+        </div>
+        <div class="slider vision">
+          <div class="slide px-2"><img class="img-fluid" src="src/assets/img/slider2-vission/slideritem (1).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid blackandwhite" src="src/assets/img/slider2-vission/slideritem (2).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid" src="src/assets/img/slider2-vission/slideritem (3).jpg" alt=""></div>
+          <div class="slide px-2"><img class="img-fluid" src="src/assets/img/slider2-vission/slideritem (4).jpg" alt=""></div>
+        </div>
+
+        <div class="my-3 px-1">
+          <div class="py-1 text-center text-white "><h5 id="b6b" class="py-2 px-3 bg-blue text-uppercase">Hand to Tand Strives to reach equality of education that has been lost</h5></div>
         </div>
       </div>
-        <div class=" mb-2 mt-5">
-          <div class="container-fluid mb-3 text-center text-white  "><h4 id="b6a" class="visible-lg" style="background-color: darkblue ; border-radius: 0.5rem">To create a phenomenon, To encourage more hearts to learn</h4></div>
-        </div>
-        <div class="justify-content-between  mb-2 mt-5">
-          <div class="row ">
-            <!-- <div class="col-lg-4  d-none d-lg-block"> -->
-              <img class="col-lg-4 col d-none d-lg-block" src="src/assets/img/black1.png" >
-            <!-- </div> -->
-            <!-- <div class="col-lg-4 d-none d-lg-block"> -->
-              <img class="blackandwhite col-lg-4 d-none d-lg-block" src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ">
-            <!-- </div> -->
-            <!-- <div class="col-lg-4 "> -->
-              <img class="col-lg-4 " src="src/assets/img/black1.png" >
-            <!-- </div> -->
-          </div>
-        </div>
-        <div class=" mt-5">
-          <div class="container-fluid mb-3 text-center text-white "><h4 id="b6b" style="background-color: darkblue ; border-radius:0.5rem">Hand to Tand Strives to reach equality of education that has been lost</h4></div>
-        </div>
-      </div>
-        <!-- <div class="d-flex flex-row justify-content-between my-flex-container mb-2">
-          <img class="blackandwhite" src="https://lh4.googleusercontent.com/fnB67iqOX-2HVhh1BCj_na_F--pdW1PezR146_nsCwUF7_uurtLgG8klIRr4WwLpmhXuurbfl5xmcOWja68oivJlBbph6emvbSfRUwao" width="350" height="250">
-          <img src="https://lh4.googleusercontent.com/0I_CbHrDHm3BNwdkGmJDxy7Fay0YqE6mUAnlhZ9EZqZGYz-mHF4W7mebsVSQ5R5FKTtkRVV7gx5icMQcYMBOYuhsF2vojbpigILyF4Zrw-LpSgeKk9dPn8WgI8NrSO8_XigGHAjL0SQ" width="350" height="250">
-          <img src="src/assets/img/black2.png" width="350" height="250">
-        </div> -->
-        <!-- <div class="d-flex flex-row justify-content-center align-items-end my-flex-container ">
-          <button class="tombol" data-toggle="collapse" data-target="#expand-readmore">Read More</button>
-        </div> -->
       
-        <div class="d-flex flex-row justify-content-center align-items-center my-flex-container2 ">
-          <div class="pointer" data-toggle="collapse" data-target="#expand-readmore">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+      <div class="my-3 d-flex flex-row justify-content-center align-items-center">
+        <div class="pointer" data-toggle="collapse" data-target="#expand-readmore">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      <div class="section-visionmission ">
+      </div>
+      <div class="section-visionmission">
         <div class="container mt-0 mb-0 text-center mb-0">
-      <div class="collapse pb-3" id="expand-readmore">
-        <div class = "d-flex flex-row justify-content-center flex-wrap my-flex-container">
-          
-          
-        </div>
-        <div class = "mt-3">
-          <div class="row no-gutters align-items-center justify-content-between">
-            <div class="mx-auto"><h2 class="mx-auto"><b id="b7a" class="text-white">Vision</b></h2>
-              <div class="circle ">
-                <div class="about-text2 order-lg-first text-center circlecontent font-weight-bold">
-                  <p id="b8a">Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</p>
+          <div class="collapse pb-3" id="expand-readmore">
+            <div class = "d-flex flex-row justify-content-center flex-wrap my-flex-container">
+            </div>
+            <div class = "mt-3">
+              <div class="row no-gutters align-items-center justify-content-between">
+                <div class="mx-auto">
+                  <div class="text-bold text-white d-flex justify-content-center">
+                    <h2 id="b7a" class="w-50 bg-blue">Vision</h2>
+                  </div>
+                  <div class="circle ">
+                    <div class="about-text2 order-lg-first text-center circlecontent font-weight-bold">
+                      <p id="b8a">Our vision is to reach a world in which every child receives equal rights regarding education. We strive and long to see our new generation working together without the divided hierarchies the society has placed today.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mx-auto mt-5 mt-xl-0">
+                  <div class="text-bold text-white d-flex justify-content-center">
+                    <h2 id="b7b" class="w-50 bg-blue">Mission</h2>
+                  </div>
+                  <div class="circle bg-black ">
+                    <div class=" about-text2 order-lg-first text-center text-white circlecontent font-weight-bold ">
+                      <p id="b8b">Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="mx-auto"><h2 class="mx-auto"><b id="b7b">Mission</b></h2>
-              <div class="circle bg-black ">
-                <div class=" about-text2 order-lg-first text-center text-white circlecontent font-weight-bold ">
-                  <p id="b8b">Our mission is to finally reach the dreams of the youth today. To rocket higher than our society ever has. We want to make sure that every child who does not have quality education, achieves it through our organization.
-                  </p>
-                </div>
-              </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-    </div>
     </section>
 
 
@@ -342,11 +336,11 @@
 
   <div class="container">
     <h1 class="text-center font-weight-bold mb-5"><span id="b9a">Our</span><span id="b9b" class="text-primary"> Activity</span></h1>
-    <p class="text-dark-50 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quasi, sint suscipit consequatur, dignissimos magnam recusandae quod saepe odit sapiente esse inventore sunt, optio autem beatae accusamus deleniti. Hic, expedita.</p>
+    <!-- <p class="text-dark-50 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quasi, sint suscipit consequatur, dignissimos magnam recusandae quod saepe odit sapiente esse inventore sunt, optio autem beatae accusamus deleniti. Hic, expedita.</p> -->
 
-    <div class="card-deck text-white row py-2">
+    <div id="activity"class="slider text-white row py-2">
         
-      <div class="card " style="overflow: hidden;">
+      <div class="card slide " style="overflow: hidden;">
         <figure class="effect-lily">
           <img src="src/assets/img/activity1.JPG" alt="img3">
           <figcaption>
@@ -354,32 +348,32 @@
               <h2 >SDN<br><b>SUKATANI</b></h2>
               <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Launch demo modal</button>  -->
 
-              <a id="c4a" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNSUKATANI">READ MORE</a>
+              <a id="c4a" href="#" class="" data-toggle="modal" data-target="#SDNSUKATANI">READ MORE</a>
             </div>
             
           </figcaption>     
         </figure>
       </div>
 
-      <div class="card" style="overflow: hidden;">
+      <div class="card slide" style="overflow: hidden;">
         <figure class="effect-lily">
           <img src="src/assets/img/activity2.jpg" alt="img3">
           <figcaption>
             <div>
               <h2 >SEKOLAH <br><b>ASEMKA</b></h2>
-              <a id="c4b" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SEKOLAHASEMKA">READ MORE</a>
+              <a id="c4b" href="#" class="" data-toggle="modal" data-target="#SEKOLAHASEMKA">READ MORE</a>
             </div>
           </figcaption>     
         </figure>
       </div>
       
-      <div class="card" style="overflow: hidden;">
+      <div class="card slide" style="overflow: hidden;">
       <figure class="effect-lily">
         <img src="src/assets/img/activity3.JPG" alt="img3">
         <figcaption>
           <div>
             <h2>SDN <br><b>HARJAMUKTI</b></h2>
-            <a id="c4c" href="#" class="btn btn-primary" data-toggle="modal" data-target="#SDNHARJAMUKTI">READ MORE</a>
+            <a id="c4c" href="#" class="" data-toggle="modal" data-target="#SDNHARJAMUKTI">READ MORE</a>
           </div>
         </figcaption>     
       </figure>
@@ -394,8 +388,7 @@
         <div class="container">
       <div id='Help' class="row justify-content-center no-gutters mb-5 mb-lg-0 wow zoomIn">
         <div class="col-lg-6 img-effect">
-          <img class="img-fluid" src="src/assets/img/merch(6).jpg" alt="">
-          <div class="overlay"></div>
+          <img class="w-100" src="src/assets/img/merch(6).jpg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -413,8 +406,7 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters wow fadeInUp">
         <div class="col-lg-6 img-effect">
-          <img class="img-fluid" src="src/assets/img/merch(4).jpg" alt="">
-          <div class="overlay"></div>
+          <img class="w-100" src="src/assets/img/merch(4).jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -499,31 +491,18 @@
           </div>
         </div>
       </div>
-
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com/hand_to_hand.id/" class="mx-2">
-            <i class="fab fa-instagram"></i>
-          </a>
-      </div>
-
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; HandToHand 2020
+      Made by HandToHand 2020
     </div>
   </footer>
 
         <!-- jquery popper bootstrap -->
-        <script src="src/js/script2.js"></script>
+        
         <script src="src/js/jquery.min.js"></script>
         <script src="src/js/popper.min.js"></script>
         <script src="src/js/bootstrap.min.js"></script>
@@ -531,13 +510,20 @@
         <script src="src/js/wow.js"></script>
         <script src="src/js/jquery.easing.min.js"></script>
         <script src="src/js/formspree.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
         <script src="src/js/script.js"></script>
         <script>
           $(window).scroll(function(){
             $('nav').toggleClass('scrolled',$(this).scrollTop()>10);
           })
+          var parallax=document.getElementById("masthead-main");
 
-
+          window.addEventListener("scroll",function(){
+            var offset = window.pageYOffset;
+            parallax.style.backgroundPositionY=offset*0.7+ "px";
+          });
         </script>
+
+        
     </body>
 </html>

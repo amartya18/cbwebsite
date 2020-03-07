@@ -15,13 +15,13 @@ var language = {
     Activity : "Kegiatan",
     Contact : "Kontak",
     hth : "Bantuan untuk setiap anak yang tidak memiliki kesempatan untuk mengakses pendidikan",
-    hthButton : "Baca Lebih Lanjut",
+    hthButton : "Baca Lebih",
     b1a : "Tentang",
     b1b : " Kami",
-    ctk : "Di sini, kami berdiri sebagai individu yang bertanggung jawab untuk generasi masa depan. Kami bertanggung jawab atas bagaimana kami membangun bangsa hari ini. Komplikasi yang disebabkan oleh",
-    b2a : "Apa yang diwakili logo kami?",
+    ctk : "Di sini, kami berdiri sebagai individu yang bertanggung jawab untuk generasi masa depan. Kami bertanggung jawab atas bagaimana kami membangun bangsa hari ini. Komplikasi yang disebabkan oleh lemahnya edukasi akan meredupkan cahaya masa depan.",
+    b2a : "Apa Arti logo kami?",
     b2b : "Dengan satu tangan yang mewakili seorang anak dan yang lainnya mewakili semua pemuda dan orang dewasa, logo kami hanya melambangkan tangan bantuan terhadap semua anak dan remaja yang tidak memiliki akses ke pendidikan yang layak. Warna biru juga mewakili ketulusan dalam kedamaian dan kesetaraan.",
-    b2c : "Lebih Tentang Kami",
+    b2c : "Tentang Kami",
     b3a : "Lebih",
     b4a : "Didirikan pada bulan September 2019, Handtohand sekarang berusaha untuk mencapai kesetaraan untuk pendidikan yang berfokus pada berbagai daerah di Indonesia",
     b4b : "Berada sebagai gerakan sosial, kami di sini untuk menciptakan dampak pada kaum muda dengan memberikan bantuan.",
@@ -92,8 +92,8 @@ if(window.location.hash){
     d1c.textContent = language.id.d1c;
     f1.textContent = language.id.f1;
     f2.textContent = language.id.f2;
-    document.getElementById("f3").style.padding = "4rem";
-    document.getElementById("f4").style.padding = "4rem";
+    // document.getElementById("f3").style.padding = "4rem";
+    // document.getElementById("f4").style.padding = "4rem";
   }
 }
 
@@ -101,3 +101,53 @@ if(window.location.hash){
 function timeFunction() {
   setTimeout(function(){ history.go(0); }, 50);
 }
+
+$('#activity').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	arrows: false,
+	dots: true,
+	pauseOnHover: true,
+	responsive: [{
+		breakpoint: 768,
+		settings: {
+			slidesToShow: 2
+		}
+	},
+	{
+	  breakpoint: 576,
+	  settings: {
+		  slidesToShow: 1
+	  }
+  }]
+  });
+
+  $('.vision').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	arrows: false,
+	pauseOnHover: true,
+	responsive: [{
+		breakpoint: 768,
+		settings: {
+			slidesToShow: 2
+		}
+	},
+	{
+	  breakpoint: 576,
+	  settings: {
+		  slidesToShow: 1
+	  }
+  }]
+  });
+
+  var parallax=document.getElementById("masthead-main");
+
+  window.addEventListener("scroll",function(){
+    var offset = window.pageYOffset;
+    parallax.style.backgroundPositionY=offset*0.7+ "px";
+  });
