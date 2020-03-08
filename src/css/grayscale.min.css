@@ -38,7 +38,7 @@
        padding:2rem 1.5rem;
        color:rgba(255,255,255,.5)
    }
-   #mainNav .nav-link:hover{
+   #mainNav .nav-link:hover,#mainNav .nav-link a:hover{
        color:#7FA9F7
    }
    #mainNav .nav-link:active{
@@ -237,7 +237,6 @@
    }
    a{
        color: rgba(0, 0, 0, 0.5);
-       /* color:#64a19d */
    }
    a:focus,a:hover{
        text-decoration:none;color:#3c6360
